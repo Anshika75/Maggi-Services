@@ -1,0 +1,1436 @@
+<!-----PLEASE PLEASE PLEASE.----->
+<!-------READ THESE LINES-------->
+
+<!-----I am very new to coding so this code can appear boring ---->
+<!------This is very simple --->
+<!-----No. of days i commited to this code = 15----->
+<!----My only aim to create this is self improvement---->
+<!----So please help me in my journey of self improvement by writing your opinions in comments---->
+<!----I am not afraid to face rude comments but yeah i want you all to be truthful please--->
+
+<!--🎉🅒🅔🅛🅔🅑🅡🅐🅣🅘🅞🅝 ⓐⓝⓓ 🅣🅗🅐🅝🅚 🅨🅞🅤 🅒🅞🅓🅔 🎉
+
+𝕽𝖊𝖆𝖘𝖔𝖓 𝕱𝖔𝖗 𝕮𝖊𝖑𝖊𝖇𝖗𝖆𝖙𝖎𝖔𝖓🤔
+
+☆My 50th code😄
+☆10k+ comments 😅
+
+In advance celebration of:
+☆Going to complete 1 yr journey of sl next month 😊 
+☆Going to reach 1k followers 😊
+
+𝕿𝖍𝖆𝖓𝖐 𝖞𝖔𝖚 ғᴏʀ ᴍᴀᴋɪɴɢ ᴍʏ ʙɪʀᴛʜᴅᴀʏ sᴏᴏᴏᴏᴏᴏᴏᴏ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ sʜᴏᴡɪɴɢ sᴏ ᴍᴜᴄʜ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʟᴏᴠᴇ ᴛᴏ ᴍᴇ🤗🤗
+Many were asking for party so here it is Hope you all enjoy it -->
+    
+    
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Texturina' rel='stylesheet'>
+    </head>
+    <body>
+    <script>
+        window.addEventListener("load", () => {
+  var buttons = [...document.querySelectorAll('.buy')]
+
+  var productimages = [...document.querySelectorAll('.img')]
+  
+    var ham = document.querySelector('.ham')
+    var list = [...document.querySelectorAll('.list')] 
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", function(e) {
+      
+      var photo = button.parentElement.querySelector('.img');
+      photo.classList.toggle("gscale");
+      
+    })
+
+  })
+  
+  
+    ham.addEventListener("click", function(e) { 
+        
+      var nav = document.querySelector(".list");
+        if (nav.style.display === "none" || nav.style.display=='') {
+            nav.style.display = "block";
+        } else {
+            nav.style.display = "none";
+        }
+      
+    })
+
+
+  
+
+});
+
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+.main{
+    height:100vh;
+    width:100vw;
+    background-color:transparent;
+    position:relative;
+    display:grid;
+    place-items:center;
+}
+
+.box{
+    height:100vh;
+    width:100vw;
+    background-image:url("https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size:100% 100%;
+    display:grid;
+    place-items:center;
+    position:relative;
+    
+}
+.box1{
+    clip-path:polygon(100% 0,0% 0%,0 80%,50% 100%,100% 80%);
+}
+.text{
+    height:15vh;
+    width:95vw;
+    position:absolute;
+    bottom:40vh;
+   /* background-color:#fff6;*/
+    /*display:flex;
+    flex-direction:row;
+    place-items:center;
+    text-align:center;
+    align-items:center;
+    justify-content:center;*/
+    font-family: 'Fredoka One', cursive;
+    font-size:2.5rem;
+    animation: type 7s steps(40) 5s 1 normal both, blink 1s 4s linear infinite both, van .5s 13s linear both ;
+    overflow: hidden;
+    white-space:nowrap;
+    border-right:4px solid transparent;
+    
+}
+@keyframes type {
+    0%{
+        width:0;
+      }
+}
+@keyframes blink{
+    50%{
+        border-right:4px solid #fff;
+    }
+}
+
+@keyframes van{
+    100%{
+        border-right-width:0px;
+    }
+}
+/*.form{
+    height:75vh;
+    width:95vw;
+    position:absolute;
+    bottom:3vh;
+    background-color:#fff6;
+}*/
+.text{
+    color:white;
+    text-shadow:0 0 2vmin #222;
+}
+.text span{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:3.5rem;
+    color:orange;
+}
+.header{
+    width:100vw;
+    height:50px;
+    top:0;
+    background-color:#0007;
+    position:fixed;
+    top:0vh;
+    left:0vw;
+    z-index:2;
+}
+
+.ham{
+    font-size:2rem;
+    position:absolute;
+    top:0;
+    right:1vw;
+    color:white;
+    background-color:transparent;
+    height:100%;
+    width:50px;
+    display:grid;
+    place-items:center;
+}
+.logo{
+    font-size:2rem;
+    position:absolute;
+    top:0;
+    left:2px;
+    color:white;
+    background-color:transparent;
+    height:100%;
+    width:50px;
+    display:grid;
+    place-items:center;
+   
+}
+.fa-pizza-slice{
+    color:white;
+}
+.cn{
+    font-size:2rem;
+    position:absolute;
+    top:0;
+    left:56px;
+    color:black;
+    background-color:transparent;
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    font-size:1.4rem;
+    color:white;
+    font-family: 'New Tegomin', serif;
+    padding-bottom:7px;
+}
+b{
+    color:orange;
+    font-size:1.9rem;
+    font-weight:900;
+}
+.s{
+    margin-left:.3rem;
+    
+}
+
+
+.dwn{
+    height:3rem;
+    width:3rem;
+    background-color:transparent;
+    position:absolute;
+    bottom:10%;
+    display:grid;
+    place-items:center;
+    font-size:2rem;
+    animation:dwn 1s 12s linear both infinite;
+}
+
+@keyframes dwn{
+    
+    0%{        
+        color:orange;                
+        transform:translateY(-20%);
+    }
+   /* 30%{
+        color:#f1c409;       
+    }*/
+    50%{
+        color:#fff;
+        transform:translateY(0%);
+    }
+    100%{
+        color:orange;
+        transform:translateY(-20%);
+    }
+}
+.wel{
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:15vh;
+    /*background-color:#0007;*/
+    display:grid;
+    place-items:center;
+    font-size:3rem;
+    font-family: 'Alfa Slab One', cursive;
+    color:crimson;   
+   /* background:-webkit-linear-gradient(#faa60e, #fff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;*/
+    animation: wel 2s linear both;
+}
+
+@keyframes wel {
+  0% {
+    letter-spacing:.8rem;
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.to{
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:30vh;
+    /*background-color:#0007;*/
+    display:grid;
+    place-items:center;
+    font-size:3rem;
+    font-family: 'Alfa Slab One', cursive;
+    color:crimson;   
+  /*  background:-webkit-linear-gradient(#ee9ae5, #faa60e);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;*/
+    animation: to 1s 3s linear both;
+    transform-origin:left;
+}
+
+@keyframes to {
+  0% {
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.wel, .to{
+    color: #fffbd0;
+    text-shadow:0 0 2vmin #222;
+}
+
+.cap{
+    height:auto;
+    width:auto;
+    position:absolute;
+    bottom:35vh;
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    font-size:1.2rem;
+    color:white;
+    font-size:1.5rem;
+    font-family: 'Princess Sofia', cursive;
+    letter-spacing:2px;
+    font-weight:900;
+    color:white;
+    border-bottom:5px double orange;
+    animation:cap 3s 11s linear both ;
+    overflow:hidden;
+}
+@keyframes cap{
+    0%{
+        opacity:0;
+        border-color:transparent;
+    }
+    
+}
+.dwn:hover{
+    color:orange;
+    animation:dwn .1s linear;
+}
+
+.cap span{
+    color: #fffbd0;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+h1{
+    height:auto;
+    width:auto;
+    position:absolute;
+    font-size:2.5rem;
+    font-family: 'Fredoka One', cursive;
+    font-weight:900;
+    border-bottom:5px double orange;
+    overflow:hidden;
+    color:orange;
+    top:25vh;
+    left:50%;
+    transform:translateX(-50%);
+    letter-spacing:5px;
+    text-shadow:0 0 .5vmin #ff0;
+    text-transform:uppercase;
+}
+.sec{
+    height:50vh;
+    width:90vw;
+    position:absolute;
+    background-color:#f004;
+    left:5vw;
+    overflow:hidden;
+}
+
+
+.ty{
+    position:relative;
+    font-family: 'New Tegomin', serif;
+    top:3%;
+    height:auto;
+    width:100%;
+    display:grid;
+    place-items:center;
+    background-color:transparent;
+    font-size:1.7rem;
+    color:#fffbd0;
+    
+}
+
+.slidercont{
+    height:80%;
+    width:100%;
+    position:absolute;
+    left:0;
+    margin-top:7.5%;
+    /*background-color:green;*/
+    overflow:scroll;
+   /* background-color: #96B3D300;*/
+}
+.slider{
+    height:100%;
+    width:600%;
+    position:absolute;
+    left:0;
+    background-color:transparent;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.card{
+    height:90%;
+    width:85vw;
+    background-color: #fff;
+    margin-left:3vw;
+    
+}
+
+.img{
+    position:absolute;
+    height:60%;
+    width:85vw;
+    background-color:red;
+    
+    background-size:100% 100%;
+}
+.dish{
+    position:absolute;
+    letter-spacing:3px;
+    color:orange;
+    font-size:1.3rem;
+    top:68%;
+    width:60vw;
+    display:grid;
+    place-items:left;
+    padding-left:5px;
+    font-family: 'Acme';
+    font-weight:900;
+}
+.quote{
+    position:absolute;
+    color:#D53E07;
+    font-size:.8rem;
+    top:80%;
+    width:60vw;
+    display:grid;
+    place-items:left;
+    font-family: 'Princess Sofia', cursive;
+    font-weight:600;
+    padding-left:5px;
+    letter-spacing:.5px;
+    
+}
+
+.price{
+    position:absolute;
+    color:#D53E07;
+    font-size:1rem;
+    top:67.5%;
+    width:25vw;
+    display:grid;
+    place-items:center;
+    font-family: 'Texturina';
+    font-weight:500;
+    left:62vw;
+    
+}
+
+.buy, .snd{
+  font-family: "Montserrat";
+  display: grid;
+  letter-spacing: 2px;
+  place-items: center;
+  font-weight: 900;
+  font-size: 1rem;
+  position:absolute;
+  bottom:8%;
+  left:80%;
+  padding:5px;
+  border-radius:1rem;
+  background-color: #D53E07;
+  box-shadow: 0 0 .5vmin .3vmin #2225;
+  transition: all 3s linear both;
+  color: #fffbd0;
+  animation:b 1s linear both infinite;
+  transition:all 1s linear both;
+}
+
+.buy:hover{
+    background-color:#fffbd0;
+    color:#D53E07;
+}
+
+@keyframes b {
+  0%,
+  100% {}
+
+  30%,
+  50%,
+  70% {
+    transform: translateX(-4px);
+  }
+
+  40%,
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  85% {
+    transform: translateX(-2px);
+  }
+}
+.gscale {
+  filter: grayscale(100%);
+}
+.price, .quote{
+    color: #F0FFFF;
+}
+
+.card{
+    background-color:#3b444b;
+    box-shadow:0 0 1vmin .8vmin #2225; 
+    position:relative;
+    overflow:hidden;
+}
+.sec{
+    background-color:rgba(101,67,33,0.7);
+}
+.sec1{
+    position:absolute;
+    top:105vh;
+    
+}
+.sec0{
+    top:45vh;
+}
+.sec2{
+    top:165vh;
+}
+.sec3{
+    top:225vh;
+}
+.sec4{
+    top:285vh;
+}
+.sec5{
+    top:345vh;
+}
+.ib1{
+    background-image:url("https://images.pexels.com/photos/4113682/pexels-photo-4113682.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.ib2{
+    background-image:url("https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ib3{
+    background-image:url("https://images.pexels.com/photos/1187317/pexels-photo-1187317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ib4{
+    background-image:url("https://images.pexels.com/photos/5419239/pexels-photo-5419239.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ib5{
+    background-image:url("https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+
+.ii1{
+    background-image:url("https://images.pexels.com/photos/5807019/pexels-photo-5807019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+
+.slider{
+    width:442vw;
+}
+
+.ii2{
+    background-image:url("https://images.pexels.com/photos/6659614/pexels-photo-6659614.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    
+}
+
+.ii3{
+    background-image:url("https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.ii4{
+    background-image:url("https://images.pexels.com/photos/6287495/pexels-photo-6287495.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.ii5{
+    background-image:url("https://cdn.pixabay.com/photo/2019/11/26/16/43/bread-4654923__480.jpg");
+}
+
+.ic1{
+    background-image:url("https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ic2{
+    background-image:url("https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ic3{
+    background-image:url("https://images.pexels.com/photos/3569706/pexels-photo-3569706.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ic4{
+    background-image:url("https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.ic5{
+    background-image:url("https://images.pexels.com/photos/2580464/pexels-photo-2580464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.in1{
+    background-image:url("https://media.istockphoto.com/photos/pani-puri-is-indian-chat-item-served-in-a-terracotta-bowls-and-plate-picture-id949831488?k=6&m=949831488&s=612x612&w=0&h=vyW44jZgjgUeXsdQTGd--5z5q4bc1bKdb3EhATyHPYI=");
+}
+
+.in2{
+    background-image:url("https://media.istockphoto.com/photos/indian-potato-patties-aloo-tikki-served-with-yogurt-close-up-in-a-picture-id1204866803?k=6&m=1204866803&s=612x612&w=0&h=_bnrw9ywDIW5iDgIZrNW2QKCejBNDdloPwgu7fEIqg4=");
+}
+
+.in3{
+    background-image:url("https://media.istockphoto.com/photos/asian-food-vegetarian-samsa-with-tomato-sauce-and-herbs-dark-picture-id848708640?k=6&m=848708640&s=612x612&w=0&h=1MiprKNBE9mLog9vQiGGZB1XigtuVkE9naK7sZNPdR0=");
+}
+
+.in4{
+    background-image:url("https://media.istockphoto.com/photos/group-of-south-indian-food-like-masala-dosa-uttapam-idliidly-wadavada-picture-id1024558340?k=6&m=1024558340&s=612x612&w=0&h=Mjls0tl2aN8nhETadeFxHwny1Zd4mx68ff7jbWISNZ0=");
+}
+.in5{
+    background-image:url("https://media.istockphoto.com/photos/nonvegetarian-indian-thali-picture-id174973324?k=6&m=174973324&s=612x612&w=0&h=u7XDMrc5SDnhz3Gz3nauK7H4Lh80We8s79YGaeChNhA=");
+}
+
+
+.id1{
+    background-image:url("https://images.pexels.com/photos/1785852/pexels-photo-1785852.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.id2{
+    background-image:url("https://cdn.pixabay.com/photo/2014/01/16/00/51/ice-cream-246161__480.jpg");
+}
+.id3{
+    background-image:url("https://cdn.pixabay.com/photo/2019/03/04/13/01/dessert-4034053__480.jpg");
+}
+.id4{
+    background-image:url("https://media.istockphoto.com/photos/gajar-halwa-sweet-picture-id1156630527?k=6&m=1156630527&s=612x612&w=0&h=MMrme3_DG3iBeQwVKYl18EkevlpX9jc0P_ZUpvJ4uF8=");
+}
+.id5{
+    background-image:url("https://cdn.pixabay.com/photo/2014/06/18/15/48/indian-sweet-371357__480.jpg");
+}
+
+.im1{
+    background-image:url("https://media.istockphoto.com/photos/nepali-waiwai-noodles-with-egg-and-lemon-picture-id1302100809?b=1&k=6&m=1302100809&s=170667a&w=0&h=WOrWtk_rZAnZuwLHGIhnqHGKROI3q3qzXBpRhNrmKyY=");
+}
+.im2{
+    background-image:url("https://images.pexels.com/photos/66234/praline-chocolates-chocolate-chocolatier-66234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.im3{
+    background-image:url("https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.im4{
+    background-image:url("https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.im5{
+    background-image:url("https://images.pexels.com/photos/5409319/pexels-photo-5409319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.au{
+    top:400vh;
+    width:80vw;
+    display:grid;
+    place-items:center;
+}
+.aub{
+    position:absolute;
+    top:420vh;
+    left:5vw;
+    width:90vw;
+    height:auto;
+    color:white;
+    font-size:1rem;
+    font-family: 'New Tegomin', serif;
+    text-align:center;
+  /*  background-color:lime;*/
+}
+.aub b{
+    font-size:1rem;
+}
+.aub span{
+    color: #fffbd0;
+    font-family: 'Fredoka One', cursive;
+    font-size:1.5rem;
+}
+.line{
+    position:absolute;
+    top:505vh;
+    left:0vw;
+    height:0vh;
+    width:100vw;
+    border-top:2.2px solid orange;
+    border-bottom:2.2px double #fffbd0;
+}
+
+.cu{
+    top:510vh;
+    width:80vw;
+    display:grid;
+    place-items:center;
+    font-size:2rem;
+    width:80vw;
+}
+.conbox{
+    height:150vw;
+    width:95vw;
+    position:absolute;
+    left:2.5vw;
+    top:910vw;
+    background-color:#0005;
+    box-shadow:0 0 .5vmin .5vmin #fff3;
+    padding:10px;
+    outline:none;
+}
+
+.mg{
+    position:absolute;
+}
+ .input, textarea {
+  background-color:transparent;
+  border-color:transparent;
+  height:9%;
+  border-bottom: 2px solid #fffbd0;
+  color: #c5ecfd;
+  width: 90%;
+  margin-top:15px;
+  margin-left:5%;
+  color:#fffbd0;
+  font-family: 'New Tegomin', serif;
+  outline:none;
+}
+
+textarea{
+  height:20vh;
+  width:68vw;
+  margin-left:7%;
+}
+
+.snd{
+    position:absolute;
+    bottom:0%;
+    left:75vw;
+}
+.buy:active{
+    background-color:white;
+}
+::-webkit-input-placeholder {
+    color:#fffbd0;
+    font-family: 'New Tegomin', serif;
+}
+.ebox{
+    height:30vh;
+    width:95vw;
+    position:absolute;
+    left:2.5vw;
+    top:80%;
+    padding:10px;
+    font-family: 'New Tegomin', serif;
+    color:#fffbd0;
+    font-size:1rem;
+}
+.ebox b{
+    font-size:1rem;
+}
+
+.box2{
+    height:630vh;
+    background-color: #1e1e1e;
+    background-image:url("");
+    margin-top:-40%;
+    z-index:-2;
+    display:inline-block ;
+    padding-top:40vh;
+    overflow:hidden;
+}
+
+.ham:hover{
+    color:orange;
+}
+.list{
+    display:none;
+    position:fixed;
+    top:7vh;
+    left:50vw;
+    height:60vh;
+    width:50vw;
+    background:rgba(0,0,0,0.5);
+    overflow:hidden;
+    box-shadow:0 0 0.5vmin 0.5vmin #eee3;
+}
+
+ul{
+     padding: 0px;
+     list-style: none;
+     overflow:hidden;
+     
+
+}
+li{
+      float:left;
+      backdrop-filter: blur( 20.0px );
+      color:#006600;
+      width:100%;
+      height:15vh;
+      font-size:1.5rem;     
+      text-align: center;
+      font-weight: 700;
+      font-family: 'Acme';
+      display:grid;
+      place-items:center;
+      overflow:hidden;
+      border-bottom:3px double #fff3;
+      color:#fffbd0;
+      letter-spacing:5px;
+      font-weight:900;
+}                 
+li:hover{
+    background-color:orange;
+    color:#1e1e1e;
+    backdrop-filter: blur( 20.0px );
+    background-color:rgba(255,165,0,0.9);
+}
+a:hover{
+    color:#1e1e1e;
+}        
+li::before{
+    content: '';
+    width:100%;
+    height: 15%;
+    background-color: ghostwhite;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    transform: translateX(150%) translateY(-250%) rotate(135deg);
+    transition: all .8s;
+    transform-origin: center;
+    
+  }
+  
+li:hover::before{
+    transform: translateX(-100%) translateY(-250%) rotate(135deg);
+    
+  } 
+
+.line2{
+    position:absolute;
+    top:620vh;
+}
+
+.box2{
+    animation:vis 2s 12s linear both;
+}
+
+.main{
+    animation:scr 2s 12s linear both;
+    background-color: #1e1e1e;
+}
+
+@keyframes vis{
+    0%{ 
+       opacity:0;
+       height:0;
+       overflow:hidden;
+    }
+}
+
+@keyframes scr{
+    0%{
+        overflow:hidden;
+        height:100vh;
+    }
+}
+a{
+    text-decoration:none;
+    float:left;
+      backdrop-filter: blur( 20.0px );
+      color:#006600;
+      width:100%;
+      height:15vh;
+      font-size:1.5rem;     
+      text-align: center;
+      font-weight: 700;
+      font-family: 'Acme';
+      display:grid;
+      place-items:center;
+      overflow:hidden;
+      border-bottom:3px double #fff3;
+      color:#fffbd0;
+      letter-spacing:5px;
+      font-weight:900;
+}
+
+.header{
+    animation:head 2s 12s linear both;
+}
+
+@keyframes head{
+    0%{
+        opacity:0;
+        width:0;
+        height:0;
+    }
+}
+
+.end{
+    height:5vh;
+    width:100vw;
+    position:absolute;
+    background-color:#eee2;
+    bottom:3vh;
+    display:flex;
+    flex-direction:row;
+    place-items:center;
+    align-items:center;
+    justify-content:center;
+    font-family: 'New Tegomin', serif;
+    color:#fffbd0;
+    font-size:1rem;
+}
+
+.fa-shopping-cart{
+    color:orange;
+    transform:rotate(-15deg);
+}
+
+    </style>
+        <div class="main">
+        <div class="header">
+                <div class="ham">
+                    <i class='fa fa-hamburger'></i>
+                </div><!--end of ham-->
+                <div class="list">
+                  <ul>
+                        <li><a href="#box1">Home</a></li>
+                        <li><a href="#mu">Menu</a></li>
+                        <li><a href="#au">About Us</a></li>
+                        <li><a href="#cu">Contact Us</a></li>
+                    </ul>  
+                </div>
+                <div class="logo">
+                  <i class='fa fa-pizza-slice'></i>  
+                </div><!--end of logo-->
+                <div class="cn">
+                   <b>M</b>aggi <b class="s">  S</b>ervices
+                </div><!--end of logo-->
+            </div><!--end of header-->
+            <div class="box box1" id="box1">
+                <div class="wel">
+                    Welcome
+                </div>
+              <div class="to">
+                  To
+              </div>
+                <div class="text">             
+          <span>M</span>aggi&nbsp <span>S</span>ervices</div><!--end of text-->
+            <div class="cap"> 
+          <i> <span>C</span>ount memories, <span> N</span>ot calories.
+</i>
+
+
+ </div>  
+          <div class="dwn">
+              
+          <i class="fa fa-angle-double-down"></i>
+              
+          </div><!--end of dwn-->
+          
+            </div><!--end of box1-->
+          
+          
+          
+          
+          
+            <div class="box box2" >
+            <h1 id="mu"><br>Menu</h1>
+            <div class="sec sec0">
+                  <div class="ty">Beverages</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img ib1"></div>
+                           <div class="dish"> Colddrink Delight </div>
+                           <div class="quote"> Life is better with a cold drink in your hand </div>
+                           <div class="price">Price: $2</div>
+                            <div class="buy">
+                                Order
+                            </div>
+                       </div><!--end of card-->
+
+                     <div class="card c1">
+                           <div class="img ib2"></div>
+                           <div class="dish"> Cappuccino </div>
+                           <div class="quote"> Black as the devil, hot as hell, pure as an angel, sweet as love. </div>
+                           <div class="price">Price: $2.5</div>
+                            <div class="buy">
+                                Order
+                            </div>
+                       </div>
+                       
+                       <!--end of card-->
+              <div class="card c1">
+                           <div class="img ib3"></div>
+                           <div class="dish"> Tea Time </div>
+                           <div class="quote"> Life is like a cup of tea. It’s all in how you make it. </div>
+                           <div class="price">Price: $2.2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->                  
+        <div class="card c1">
+                           <div class="img ib4"></div>
+                           <div class="dish"> Hot Chocolate </div>
+                           <div class="quote"> Hot chocolate is like a hug from the inside.</div>
+                           <div class="price">Price: $2.7</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->           
+<div class="card c1">
+                           <div class="img ib5"></div>
+                           <div class="dish"> Lemonade </div>
+                           <div class="quote"> Keep it sweet like lemonade.</div>
+                           <div class="price">Price: $2.7</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->           
+                                      
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec0-->
+                
+<!------------------------------------------>
+<!------------------------------------------>                
+                <div class="sec sec1">
+                  <div class="ty">Italian Cuisine</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img ii1"></div>
+                           <div class="dish"> Pasta Asciutta </div>
+                           <div class="quote">There is always a room for Pasta</div>
+                           <div class="price">Price: $3.5</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                       <div class="card c1">
+                           <div class="img ii2"></div>
+                           <div class="dish"> I Maccheroni </div>
+                           <div class="quote">Life is short—have some macaroni!
+
+</div>
+                           <div class="price">Price: $3.5</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                      <div class="card c1">
+                           <div class="img ii3"></div>
+                           <div class="dish"> Farmhouse Pittsa </div>
+                           <div class="quote"> Round or square, thick or thin, every pizza is beautiful
+
+</div>
+                           <div class="price">Price: $4</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+       <div class="card c1">
+                           <div class="img ii4"></div>
+                           <div class="dish"> Spaghetti</div>
+                           <div class="quote">Eat the spaghetti to forgetti your regretti.
+
+</div>
+                           <div class="price">Price: $3.5</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                <div class="card c1">
+                           <div class="img ii5"></div>
+                           <div class="dish"> Garlic Bread</div>
+                           <div class="quote">Soft, spongy and with the crunchiest backsides, with pungent garlic butter. 
+
+</div>
+                           <div class="price">Price: $3.7</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                                                                  
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec1-->
+<!------------------------------------------>
+<!------------------------------------------>                
+               <div class="sec sec2">
+                  <div class="ty">Chinese Delight</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img ic1"></div>
+                           <div class="dish"> Chowmein </div>
+                           <div class="quote"> Best Delight for the people in the mood for noods </div>
+                           <div class="price">Price: $2.8</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+            <div class="card c1">
+                           <div class="img ic2"></div>
+                           <div class="dish"> Manchow Soup </div>
+                           <div class="quote"> Soup is the song of the hearth... and the home. </div>
+                           <div class="price">Price: $2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                      <div class="card c1">
+                           <div class="img ic3"></div>
+                           <div class="dish"> Spring Rolls </div>
+                           <div class="quote"> Perfect fuel for your Good Mood
+</div>
+                           <div class="price">Price: $2.2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                       <div class="card c1">
+                           <div class="img ic4"></div>
+                           <div class="dish"> Chinese Burger </div>
+                           <div class="quote"> life is too short to miss out on double cheeseburgers </div>
+                           <div class="price">Price: $2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                       <div class="card c1">
+                           <div class="img ic5"></div>
+                           <div class="dish"> Chilli Paneer </div>
+                           <div class="quote"> Savor the flavor with this exotic paneer </div>
+                           <div class="price">Price: $2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                                   
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec2--> 
+ <!------------------------------------------>
+ <!------------------------------------------>               
+                <div class="sec sec2">
+                  <div class="ty">Chinese Delight</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img ic1"></div>
+                           <div class="dish"> Chowmein </div>
+                           <div class="quote"> Best Delight for the people in the mood for noods </div>
+                           <div class="price">Price: $2.8</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+            <div class="card c1">
+                           <div class="img ic2"></div>
+                           <div class="dish"> Manchow Soup </div>
+                           <div class="quote"> Soup is the song of the hearth... and the home. </div>
+                           <div class="price">Price: $3</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                      <div class="card c1">
+                           <div class="img ic3"></div>
+                           <div class="dish"> Spring Rolls </div>
+                           <div class="quote"> Perfect fuel for your Good Mood
+</div>
+                           <div class="price">Price: $2.2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                       <div class="card c1">
+                           <div class="img ic4"></div>
+                           <div class="dish"> Chinese Burger </div>
+                           <div class="quote"> life is too short to miss out on double cheeseburgers </div>
+                           <div class="price">Price: $2.7</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                       <div class="card c1">
+                           <div class="img ic5"></div>
+                           <div class="dish"> Chilli Paneer </div>
+                           <div class="quote"> Savor the flavor with this exotic paneer </div>
+                           <div class="price">Price: $3.2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                                   
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec2--> 
+ <!------------------------------------------>
+ <!------------------------------------------>               
+                <div class="sec sec3">
+                  <div class="ty">Indian Tadka</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img in1"></div>
+                           <div class="dish"> Paani Poori </div>
+                           <div class="quote"> These gol-gappa will make your tastebuds go wild!  </div>
+                           <div class="price">Price: $2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+ <div class="card c1">
+                           <div class="img in2"></div>
+                           <div class="dish"> Aaloo Tikki </div>
+                           <div class="quote"> All time favourite craving </div>
+                           <div class="price">Price: $2.2</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+    <div class="card c1">
+                           <div class="img in3"></div>
+                           <div class="dish"> Samosa </div>
+                           <div class="quote"> Let's start the day with garma garam samose!!... </div>
+                           <div class="price">Price: $2.1</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+       <div class="card c1">
+                           <div class="img in4"></div>
+                           <div class="dish"> Dosa and Idli </div>
+                           <div class="quote"> Fuel to you unfiltered emotions  </div>
+                           <div class="price">Price: $2.6</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+    <div class="card c1">
+                           <div class="img in5"></div>
+                           <div class="dish"> Thali
+                            </div>
+                           <div class="quote"> A taste of the food life. </div>
+                           <div class="price">Price: $3</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                                                                                                   
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec3-->
+<!------------------------------------------>
+ <!------------------------------------------>                
+               <div class="sec sec4">
+                  <div class="ty">Desserts</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img id1"></div>
+                           <div class="dish"> Donut </div>
+                           <div class="quote"> Donut worry. Be happy. </div>
+                           <div class="price">Price: $5</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+           <div class="card c1">
+                           <div class="img id2"></div>
+                           <div class="dish"> Ice Cream </div>
+                           <div class="quote"> I sream, You scream, We all scream for ice cream </div>
+                           <div class="price">Price: $4.8</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+ <div class="card c1">
+                           <div class="img id3"></div>
+                           <div class="dish"> Chocolate Mousse</div>
+                           <div class="quote"> You are never alone with a bar of Chocolate. </div>
+                           <div class="price">Price: $4.9</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+  <div class="card c1">
+                           <div class="img id4"></div>
+                           <div class="dish"> Gajar Halwa</div>
+                           <div class="quote"> Kuch meetha toh banta hai </div>
+                           <div class="price">Price: $3.6</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+<div class="card c1">
+                           <div class="img id5"></div>
+                           <div class="dish"> GulabJamun </div>
+                           <div class="quote"> Enjoy a taste of heaven </div>
+                           <div class="price">Price: $3</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                                                                                                     
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec4--> 
+           <!------------------------------------------>
+ <!------------------------------------------>                
+               <div class="sec sec5">
+                  <div class="ty">Maggi Specials</div>
+                 <div class="slidercont">
+                       <div class="slider">
+                       
+                       <div class="card c1">
+                           <div class="img im1"></div>
+                           <div class="dish"> Maggie </div>
+                           <div class="quote"> East or West Maggie Is Best!!!! </div>
+                           <div class="price">Price: $7K</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+    <div class="card c1">
+                           <div class="img im2"></div>
+                           <div class="dish"> Homo-Chocolate </div>
+                           <div class="quote"> Enjoy a taste of heaven </div>
+                           <div class="price">Price: $1K</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+<div class="card c1">
+                           <div class="img im3"></div>
+                           <div class="dish"> French Fries </div>
+                           <div class="quote"> Eyes on the fries
+ </div>
+                           <div class="price">Price: $1K</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+<div class="card c1">
+                           <div class="img im4"></div>
+                           <div class="dish"> Sandwich </div>
+                           <div class="quote"> An oasis of pleasure </div>
+                           <div class="price">Price: $1.5K</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+<div class="card c1">
+                           <div class="img im5"></div>
+                           <div class="dish"> Momos </div>
+                           <div class="quote"> Fueled by love
+ </div>
+                           <div class="price">Price: $.5K</div>
+                            <div class="buy">
+            Order
+          </div>
+                       </div><!--end of card-->
+                                                                                                               
+                   </div><!--end of slider-->
+                 </div><!--end of slidercont-->
+                </div><!--end of sec5-->  
+                <h1 class="au" id="au"><br>About Us</h1>  
+                <div class="aub"> Since our modest beginnings in <b>2004</b> with a little space in <i>Ice Cream Mountains,</i> surrounded by cool breeze of <i>Chocolate River,</i> <b>Maggi Services</b> is trying its best to provide you a roller coster ride of different cuisines from all across the world<br> Our <b>priority</b> is to deliver best quality of food and in return what we desire is to get the most precious smile of it's customers. Everything we do is a <b>celebration</b> of happiness and love.Our <b>values</b> include providing fair wages for workers, giving back to the communities we work with, and serving great food. <br>Moreover, we regard it as a <b>personal challenge</b> to help bring about a revival of <b>Maggi </b> cuisine and let its distinctive flavours and particular regional character brighten up the world.<br><br>
+                <span>Thank You For Visiting!!</span><br>
+                <sup><i>Hope you enjoyed our service</i></sup>
+                 
+                </div>  
+              <div class="line"></div>    
+               <h1 class="cu" id="cu" ><br>Contact Us</h1>
+               <div class="conbox" >
+                <input type="text" class="input" placeholder="Name">
+      <input type="text" class="input" placeholder="Email Address">
+      <input type="text" class="input" placeholder="Phone">
+      <input type="text" class="input" placeholder="Subject">
+    
+    <div class="mg">
+      <textarea placeholder="Message"></textarea>
+      <div class="snd">send</div>
+    </div>
+      <div class="ebox">
+                 <div class="phn">Phone Number:123-456-7890</div> 
+                 <div class="adr"><b>Maggi Services,</b> Ice Cream Mountain, Near Chocolate River</div> 
+                 <div class="time">Time:04:00 am to 01:00pm</div> 
+              </div><!--end of eonbox-->
+              </div><!--end of conbox-->
+              <div class="line line2"></div>  
+              <div class="end">Free Delivery By 31st April &nbsp<i class="fa fa-shopping-cart"></i> </div>
+            </div><!--end of box2--> 
+        </div><!--end of main-->
+    </body>
+</html>
