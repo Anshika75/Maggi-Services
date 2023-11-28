@@ -4,4 +4,5 @@ Maggi Services is a food🍕 webpage, trying its best💫 to provide you with a 
 # View 
 https://anshika75.github.io/Maggi-Services/
 
-# Only mobile version
+# Note
+Only mobile version
